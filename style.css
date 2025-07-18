@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: var(--font_outfit);
     line-height: 1.5;
+    
 }
 
 :root{
@@ -31,8 +32,9 @@
     width: 100%;
 }
 
+/* Sessão Inicio */
 #inicio{
-    padding: 40px;
+    margin: 40px;
 }
 
 #inicio > h1{
@@ -41,4 +43,37 @@
 
 #inicio > p{
     margin: 20px 0px 0px 0px;
+}
+
+
+/* Sessão de Tempo de Preparação */
+#preparacao{
+    margin: 0px 40px 0px 40px;
+    background-color: var(--Rose_50);
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.cor_negrito{
+    color: var(--Stone_600)
+}
+
+.cor_texto{
+    color: var(--Stone_600);
+}
+
+#preparacao > h3{
+    color: var(--Rose_800);
+}
+
+#preparacao ul{
+    margin: 0px 0px 0px 20px;
+}
+
+#preparacao ul li{
+    padding: 10px 0px 0px 20px;
+}
+
+#preparacao ul li::marker{
+    color: var(--Rose_800);
 }
