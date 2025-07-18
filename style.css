@@ -48,7 +48,7 @@
 
 /* Sessão de Tempo de Preparação */
 #preparacao{
-    margin: 0px 40px 0px 40px;
+    margin: 0px 40px 40px 40px;
     background-color: var(--Rose_50);
     padding: 20px 30px;
     border-radius: 10px;
@@ -76,4 +76,28 @@
 
 #preparacao ul li::marker{
     color: var(--Rose_800);
+}
+
+
+
+/* Sessão de Ingredientes */
+#ingredientes{
+    margin: 0px 40px 0px 40px;
+}
+
+.cor_h2{
+    color: var(--Brown_800);
+}
+
+#ingredientes ul li{
+    margin: 15px 0px 0px 20px;
+    padding: 0px 0px 0px 15px;
+}
+
+#ingredientes ul li::marker{
+    color: var(--Brown_800);
+}
+
+.hr{
+    margin: 40px;
 }
