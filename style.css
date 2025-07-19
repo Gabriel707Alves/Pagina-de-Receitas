@@ -133,10 +133,6 @@
     margin: 0px 0px 20px 0px;
 }
 
-#nutricao > p{
-    
-}
-
 .container{
     display: flex;
 }
@@ -160,3 +156,165 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+
+
+/* Versão de PC */
+@media (min-width: 1440px){
+    .fonte_titulo{
+    font-family: var(--font_young_serif);
+}
+
+body{
+    background-color: var(--Stone_100);
+}
+
+main{
+    margin: auto;
+    width: 38%;
+    background-color: var(--White);
+    border-radius: 20px;
+    margin: 50px auto;
+}
+
+.img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#img{
+    width: 100%;
+    padding: 40px 40px 0px 40px;
+    
+}
+
+/* Sessão Inicio */
+#inicio{
+    margin: 40px;
+}
+
+#inicio > h1{
+    font-size: 2rem
+}
+
+#inicio > p{
+    margin: 20px 0px 0px 0px;
+}
+
+
+/* Sessão de Tempo de Preparação */
+#preparacao{
+    margin: 0px 40px 40px 40px;
+    background-color: var(--Rose_50);
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.cor_negrito{
+    color: var(--Stone_600)
+}
+
+.cor_texto{
+    color: var(--Stone_600);
+}
+
+#preparacao > h3{
+    color: var(--Rose_800);
+}
+
+#preparacao ul{
+    margin: 0px 0px 0px 20px;
+}
+
+#preparacao ul li{
+    padding: 10px 0px 0px 20px;
+}
+
+#preparacao ul li::marker{
+    color: var(--Rose_800);
+}
+
+
+
+/* Sessão de Ingredientes */
+#ingredientes{
+    margin: 0px 40px 0px 40px;
+}
+
+.cor_h2{
+    color: var(--Brown_800);
+}
+
+#ingredientes ul li{
+    margin: 15px 0px 0px 20px;
+    padding: 0px 0px 0px 15px;
+}
+
+#ingredientes ul li::marker{
+    color: var(--Brown_800);
+}
+
+.hr{
+    margin: 40px;
+}
+
+
+
+/* Sessão de Instruções */
+#instrucoes{
+    margin: 0px 40px 0px 40px;
+}
+
+#instrucoes ol{
+    margin: 0px 0px 0px 23px;
+}
+
+#instrucoes ol li{
+    margin: 15px 0px 0px 0px;
+    padding: 0px 0px 0px 20px;
+}
+
+#instrucoes ol li::marker{
+    color: var(--Brown_800);
+}
+
+
+
+/* Sessão de Nutrição */
+#nutricao{
+    margin: 0px 40px 0px 40px;
+}
+
+#nutricao > h2{
+    margin: 0px 0px 20px 0px;
+}
+
+.container{
+    display: flex;
+}
+
+.container > div{
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+}
+
+.container > div:nth-child(2){
+    color: var(--Brown_800);
+    font-weight: bold;
+    
+}
+
+.container > div:nth-child(1){
+    padding: 0px 0px 0px 20px;
+    color: var(--Stone_600);
+}
+
+.attribution{
+    font-size: 14px;
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+     
+}
+}
