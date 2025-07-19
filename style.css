@@ -154,4 +154,9 @@
 
 .container > div:nth-child(1){
     padding: 0px 0px 0px 20px;
+    color: var(--Stone_600);
 }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
