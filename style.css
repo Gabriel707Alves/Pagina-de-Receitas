@@ -121,3 +121,37 @@
 #instrucoes ol li::marker{
     color: var(--Brown_800);
 }
+
+
+
+/* Sessão de Nutrição */
+#nutricao{
+    margin: 0px 40px 0px 40px;
+}
+
+#nutricao > h2{
+    margin: 0px 0px 20px 0px;
+}
+
+#nutricao > p{
+    
+}
+
+.container{
+    display: flex;
+}
+
+.container > div{
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+}
+
+.container > div:nth-child(2){
+    color: var(--Brown_800);
+    font-weight: bold;
+    
+}
+
+.container > div:nth-child(1){
+    padding: 0px 0px 0px 20px;
+}
